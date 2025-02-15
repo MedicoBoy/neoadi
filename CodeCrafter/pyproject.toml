@@ -1,0 +1,32 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.11.12",
+    "aiosmtplib>=4.0.0",
+    "asyncio>=3.4.3",
+    "beautifulsoup4>=4.13.3",
+    "colorama>=0.4.6",
+    "cryptography>=44.0.1",
+    "dnspython>=2.7.0",
+    "fake-useragent>=2.0.3",
+    "faker>=36.1.1",
+    "flask-login>=0.6.3",
+    "flask-wtf>=1.2.2",
+    "luhn>=0.2.0",
+    "luhn-validator>=1.2.0.post4",
+    "nest-asyncio>=1.6.0",
+    "oauthlib>=3.2.2",
+    "openai>=1.63.0",
+    "phonenumbers>=8.13.54",
+    "psutil>=6.1.1",
+    "py3-validate-email>=1.0.5.post2",
+    "pyopenssl>=25.0.0",
+    "python-dotenv>=1.0.1",
+    "python-telegram-bot[job-queue,rate-limiter]>=21.10",
+    "requests>=2.32.3",
+    "telegram>=0.0.1",
+    "twilio>=9.4.5",
+]
